@@ -25,9 +25,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a { 
+    color: #000;
+    text-decoration: none;
+}
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #000; }
 
 /*****************************************************************************/
 /*
@@ -59,25 +62,29 @@ ul.posts span {
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.5em;
 }
 
 .header {
-    background-image: linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );
-    background-image: -webkit-linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );
+    /*background-image: linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );*/
+    /*background-image: -webkit-linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );*/
+    border-bottom: solid 4px;
+    background-color: rgb(217, 217, 217);
 }
 
 .header a {
-  font-weight: bold;
+  font-weight: lighter;
   text-decoration: none;
   font-size: large;
+  /*text-shadow: rgb(227, 253, 120) 0 2px;*/
 }
 
 .header h1.title {
-  display: inline-block;
-  margin-top: 1.5em;
-  margin-bottom: 3em;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .header h1.title a {
@@ -88,12 +95,12 @@ ul.posts span {
   color: #000;
 }
 
-.header a.extra {
+a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.header a.extra:hover {
+a.extra:hover {
   color: #000;
 }
 

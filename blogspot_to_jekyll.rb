@@ -22,9 +22,9 @@
 #  * Make sure Blogger shows full output of article in feeds.
 #  * Commenting on migrated articles will be set to false by default.
 
-include Config
+#include Config
 
-require 'rubygems' if CONFIG['host_os'].start_with? "darwin"
+require 'rubygems' #if CONFIG['host_os'].start_with? "darwin"
 require 'feedzirra'
 require 'date'
 require 'optparse'
