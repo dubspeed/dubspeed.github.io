@@ -63,30 +63,37 @@ ul.posts span {
   line-height: 1.5em;
 }
 
-.site .header a {
+.header {
+    background-image: linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );
+    background-image: -webkit-linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );
+}
+
+.header a {
   font-weight: bold;
   text-decoration: none;
+  font-size: large;
 }
 
-.site .header h1.title {
+.header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
 }
 
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
+.header h1.title a {
   color: #000;
 }
 
-.site .header a.extra {
+.header h1.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
+.header a.extra:hover {
   color: #000;
 }
 
