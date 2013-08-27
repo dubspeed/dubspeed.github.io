@@ -61,12 +61,17 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 1em auto 2em;
+  /*width: 563px;*/
+  /*margin: 1em auto 2em;*/
   line-height: 1.5em;
 }
 
+.site #home {
+    margin-left: 1em;
+}
+
 .header {
+    font-size: 140%;
     /*background-image: linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );*/
     /*background-image: -webkit-linear-gradient(top, rgb(217, 217, 217),  rgb(255, 255, 255) );*/
     border-bottom: solid 4px;
@@ -76,15 +81,13 @@ ul.posts span {
 .header a {
   font-weight: lighter;
   text-decoration: none;
-  font-size: large;
+  /*font-size: large;*/
   /*text-shadow: rgb(227, 253, 120) 0 2px;*/
 }
 
 .header h1.title {
-    margin-bottom: 0;
     display: inline-block;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin: 1.5em auto 1.5em auto; 
 }
 
 .header h1.title a {
