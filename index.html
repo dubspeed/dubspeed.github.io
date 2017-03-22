@@ -1,13 +1,99 @@
----
-layout: default
-title: Game development blog
----
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tanks! An Arcade Panzer Battle Game</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<style>
+.tank_logo  {
+    background: url(images/logo.png) 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+</style>
+	</head>
+	<body>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<div class="tank_logo"></div>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Tank!</h1>
+                                <h2>Arcade Panzer Battle Game</h2>
+                                <p><!--[-->Now available on the App Store<!--]--></p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#game">Game</a></li>
+								<li><a href="#developer">Developer</a></li>
+								<li><a href="#contact">Support</a></li>
+								<li><a href="#press_kit">Press Kit</a></li>
+                                <!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+                        
+							<article id="game">
+								<h2 class="major">Game</h2>
+								<span class="image main"><img src="images/collect_keys.jpg" alt="" /></span>
+								<p>Collect keys (up to five) to open the portal!</p>
+								<p>Find the portal to win (spoiler: it's way north in the level)</p>
+								<p>More Ammo needed!</p>
+								<p>Health stars!</p>
+							</article>
+
+							<article id="developer">
+								<h2 class="major">Developer</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Huhu</p>
+							</article>
+
+							<article id="contact">
+								<h2 class="major">Support</h2>
+								<p>Please contact me via twitter or open an issue on the github page.</p>
+								<ul class="icons">
+									<li><a href="https://twitter.com/dub_speed" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="https://github.com/dubspeed/tanks/issues" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+                    </div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Michael Lennartz. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
